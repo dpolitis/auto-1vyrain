@@ -50,7 +50,7 @@ Please read the [longform FAQ](https://medium.com/@n4ru/1vyrain-an-xx30-thinkpad
 
 # License
 
-All the code in this repo, excluding n4ru's Original README.me, are licenced under GPLv3.
+All the code in this repo, excluding n4ru's Original README.me and 1vyprep.bat, are licenced under GPLv3.
 
 ---
 
@@ -75,4 +75,11 @@ No unless you soldered a proper bios chip on it. I do not currently have the req
 - Does it contain a patch for x230 FHD mod?
 Yes, choose X330, when asked.
 
-- What is the root password for the image? On the login prompt just type "root" an d press enter twice (empty pass).
+- What is the root password for the image?
+There is no autologin for failsafe reasons. On the login prompt just type "root" and press enter twice (empty pass).
+
+- Can I download 1vyprep images from Lenovo my self, also?
+Yes you can. Run the 1vyprep-get-roms.sh on the scripts folder. There is also a bat file to burn images (1vprep.bat), using a win x64 bootable cd.
+
+- Can I see the patches applied?
+Yes, see the patcher/patcher.sh script.
