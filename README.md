@@ -58,8 +58,8 @@ All the code in this repo, excluding n4ru's Original README.me, are licenced und
 
 This was a fun work to do over a free weekend.
 
-Many thanks to [n4ru](https://1vyra.in/) for the original idea [1vyrain](https://github.com/n4ru/1vyrain) and his tutorials:
-[1vyrain-faq](https://medium.com/@n4ru/1vyrain-an-xx30-thinkpad-jailbreak-fd4bb0bdb654)
+Many thanks to [n4ru](https://1vyra.in/) for the original idea and his tutorials:
+https://medium.com/@n4ru/1vyrain-an-xx30-thinkpad-jailbreak-fd4bb0bdb654
 https://medium.com/@n4ru/1vyrain-self-build-documentation-5059825b1fdb
 
 Huge thanks go out to [gch1p](https://github.com/gch1p/thinkpad-bios-software-flashing-guide) for publishing the method used and [pgera](https://github.com/hamishcoleman/thinkpad-ec/issues/70#issuecomment-417903315) for the working commands, without them this would have not been possible.
