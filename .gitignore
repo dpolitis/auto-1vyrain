@@ -1,0 +1,4 @@
+*.iso
+result/*.iso
+scripts/*.exe
+scripts/*.FL1
