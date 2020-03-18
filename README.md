@@ -50,7 +50,7 @@ Please read the [longform FAQ](https://medium.com/@n4ru/1vyrain-an-xx30-thinkpad
 
 # License
 
-All the code in this repo, excluding n4ru's Original README.me and 1vyprep.bat, are licenced under GPLv3.
+All the code in this repo, excluding n4ru's Original README.me, is licenced under GPLv3.
 
 ---
 
@@ -86,3 +86,5 @@ Yes, see the patcher/patcher.sh script.
 
 - I created the image  just fine, but unfortunatelly chipsec does not run and complains about something an .ko module thingie..
 Hm, yes. chipsec builds a kernel module that uses to do its magic. If you build this image on docker running different kernel version, you might get an invalid format error (or not), YMMV. The safe bet here is to run docker on a latest fedora system (31, as of now) with all updates installed. This can of course be a bare metal or VM system.
+
+**UPDATE: You can now use the automated method of creating a mini bootable windows 10 iso to auto-apply 1vyprep. More info here:**[auto-1vyprep](https://github.com/dpolitis/auto-ivyprep)
