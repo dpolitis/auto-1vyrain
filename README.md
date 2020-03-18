@@ -87,4 +87,4 @@ Yes, see the patcher/patcher.sh script.
 - I created the image  just fine, but unfortunatelly chipsec does not run and complains about something an .ko module thingie..
 Hm, yes. chipsec builds a kernel module that uses to do its magic. If you build this image on docker running different kernel version, you might get an invalid format error (or not), YMMV. The safe bet here is to run docker on a latest fedora system (31, as of now) with all updates installed. This can of course be a bare metal or VM system.
 
-**UPDATE: You can now use the automated method of creating a mini bootable windows 10 iso to auto-apply 1vyprep. More info here:**[auto-1vyprep](https://github.com/dpolitis/auto-ivyprep)
+**UPDATE: You can now use the automated method of creating a mini bootable windows 10 iso to auto-apply 1vyprep. More info here:** [auto-1vyprep](https://github.com/dpolitis/auto-1vyprep)
