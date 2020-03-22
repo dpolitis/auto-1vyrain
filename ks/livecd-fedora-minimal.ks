@@ -49,7 +49,7 @@ pip2 install /root/workspace/chipsec/*.whl
 mkdir /root/chipsec
 ln -s /usr/bin/chipsec_util /root/chipsec/chipsec_util.py
 ln -s /usr/bin/chipsec_main /root/chipsec/chipsec_main.py
-cp /root/workspace/start.sh /root/start.sh
+cp /root/workspace/scripts/start.sh /root/start.sh
 rm -rf /root/workspace
 find /root -type f -name "index.html" -delete
 printf "\nif [ -f ~/.bashrc ]; then\n\tchmod +x ~/start.sh\n\t~/start.sh\nfi\n\nexport updated=r3\n" >> /root/.bashrc

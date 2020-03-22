@@ -6,8 +6,8 @@ WORKDIR /workspace
 COPY . .
 
 RUN rm Dockerfile; \
-    curl -RO https://raw.githubusercontent.com/n4ru/1vyrain/master/start.sh; \
-    chmod +x scripts/build-iso.sh
+    chmod +x scripts/build-iso.sh; \
+    chmod +x scripts/start.sh
 
 RUN dnf update --refresh -y; \
     dnf install --refresh -y \
