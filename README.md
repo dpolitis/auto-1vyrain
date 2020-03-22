@@ -97,4 +97,4 @@ Absolutely! You can! You must first take ownership of the TPM chip. If you have 
    ```
 Enter your password and then reboot to auto-1vyrain iso to flash your patched image. See Ma? No beeps!
 
-Of course USE AT YOUR OWN RISK!! I will not be held responsible for anything that may happen to you or your hardware. You have been noted. If you do not understand what this project does, please do not use it.
+***Of course USE AT YOUR OWN RISK!! I will not be held responsible for anything that may happen to you or your hardware. You have been noted. If you do not understand what this project does, please do not use it.***
