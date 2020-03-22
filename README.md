@@ -88,3 +88,11 @@ Yes, see the patcher/patcher.sh script.
 
 - I created the image  just fine, but unfortunatelly chipsec does not run and complains about something an .ko module thingie..
 Hm, yes. chipsec builds a kernel module that uses to do its magic. If you build this image on docker running different kernel version, you might get an invalid format error (or not), YMMV. The safe bet here is to run docker on a latest fedora system (31, as of now) with all updates installed. This can of course be a bare metal or VM system.
+
+- Can I use the auto-1vyrain iso to flash a patched image and avoid 5 beeps on boot?
+Absolutely! You can! You must first take ownership of the TPM chip. If you have installed Windows before, this should have been done by the OS already. If you have linux, you may have to do the following (before flashing a patched image):
+   ```console
+   systemctl enable tcsd && systemctl start tcsd
+   tpm_takeownership
+   ```
+Enter your password and then reboot to auto-1vyrain iso to flash your patched image. See Ma? No beeps!
